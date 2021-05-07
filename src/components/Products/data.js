@@ -1,35 +1,36 @@
-import product1 from '../../images/product-1.jpg';
-import product2 from '../../images/product-2.jpg';
-import product3 from '../../images/product-3.jpg';
-import sweet1 from '../../images/sweet3.jpg';
-import sweet2 from '../../images/sweet-2.jpg';
-import sweet3 from '../../images/sweet-3.jpg';
+import product1 from '../../images/entrecote.jpg';
+import product2 from '../../images/steak3.jpg';
+import product3 from '../../images/steak2.jpg';
+import sweet1 from '../../images/fish.jpg';
+import sweet2 from '../../images/salmon.jpg';
+import sweet3 from '../../images/salmon2.jpg';
 
 export const productData = [
   {
+    id: 'steak',
     img: product1,
-    alt: 'Pizza',
-    name: 'Supreme Pizza',
+    alt: 'Steak',
+    name: 'Entrecotê',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
-    price: '$19.99',
-    button: 'Add to Cart'
+      'Entrecotê with homemade fries and salad',
+    price: '',
+    button: ''
   },
   {
     img: product2,
-    alt: 'Pizza',
-    name: 'Hawaiian Paradise',
+    alt: 'Steak',
+    name: 'Rib Eye',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      ' Best Rib Eye Steak around Portugal, served with finest broccoli and eggs',
     price: '$16.99',
     button: 'Add to Cart'
   },
   {
     img: product3,
-    alt: 'Pizza',
-    name: 'Veggie Overload',
+    alt: 'Steak',
+    name: 'Anti-Vegetaria',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      ' This is what you order to make your vegetarian girlfriend cry',
     price: '$14.99',
     button: 'Add to Cart'
   }
@@ -38,28 +39,28 @@ export const productData = [
 export const productDataTwo = [
   {
     img: sweet2,
-    alt: 'Donuts',
-    name: 'Doughlicious',
+    alt: 'Fish',
+    name: 'Salmon Filet',
     desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
+      'Salmon filet with potatoes and salad',
     price: '$9.99',
     button: 'Add to Cart'
   },
   {
     img: sweet3,
-    alt: 'Ice Cream',
-    name: 'Caramel Wonder',
+    alt: 'Fish',
+    name: 'Salmon filet',
     desc:
-      'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
+      'Salmon filet with potatoes and salad',
     price: '$12.99',
     button: 'Add to Cart'
   },
   {
     img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
+    alt: 'Fish',
+    name: 'Sea Bream',
     desc:
-      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
+      'Sea Bream making you the happiest person in the world',
     price: '$9.99',
     button: 'Add to Cart'
   }
