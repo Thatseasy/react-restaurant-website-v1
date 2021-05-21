@@ -14,7 +14,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 
   const myRef = useRef();
 
-  const executeScroll = () => myRef.current.scrollIntoView();
+
   // run this function from an event handler or an effect to execute scroll 
 
 
