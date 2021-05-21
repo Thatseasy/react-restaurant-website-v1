@@ -61,7 +61,7 @@ export default class Contact extends Component {
         };
 
         try {
-            await axios.post("BACKEND_URL", data);
+            await axios.post("https://restobackend.herokuapp.com/", data);
             this.setState({ sent: true }, this.resetForm());
         } catch (error) {
             console.log(error);
