@@ -21,10 +21,10 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialLogo to='/'>A Transmontana</SocialLogo>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
+              <SocialIconLink href='https://www.facebook.com/Transmontana/' target='_blank' aria-label='Facebook'>
                 <FaFacebook />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink href='https://www.instagram.com/restaurante_a_transmonta/' target='_blank' aria-label='Instagram'>
                 <FaInstagram />
               </SocialIconLink>
             </SocialIcons>

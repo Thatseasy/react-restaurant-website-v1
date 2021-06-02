@@ -29,13 +29,13 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarMenu>
 
         <SidebarLink to='/menu'>Menu Card</SidebarLink>
-        <SidebarLink to='/'>Gallery</SidebarLink>
-        <SidebarLink to='/'>Contact</SidebarLink>
+        <SidebarLink to='/gallery'>Gallery</SidebarLink>
+        <SidebarLink to='/about'>About Us</SidebarLink>
         <SidebarLink to='/contact'>Contact</SidebarLink>
 
       </SidebarMenu>
       <SideBtnWrap>
-        <SidebarRoute to='/'>Order Now</SidebarRoute>
+        <SidebarRoute to='/'>Reservation</SidebarRoute>
       </SideBtnWrap>
     </SidebarContainer>
   );

@@ -40,6 +40,7 @@ export const HeroH1 = styled.h1`
   box-shadow: 3px 5px #e9ba23;
   letter-spacing: 1px;
   max-width: 16ch;
+  font-weight: 300;
 `;
 
 export const HeroP = styled.p`

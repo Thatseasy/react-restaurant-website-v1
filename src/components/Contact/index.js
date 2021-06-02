@@ -1,6 +1,11 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import { ContactContainer, ContactWrapper, InfoGrid, ContactGrid, ContactInfoText, GridWrapper, GridWrapperTitle, ContactGridA, ContactGridB, ContactGridC, ContactGridD, ContactInfoTitle, InfoWrapper } from './ContactElements'
+import {
+    ContactContainer, ContactWrapper, ContactInput,
+    InfoGrid, ContactGrid, ContactInfoText, GridWrapper,
+    GridWrapperTitle, ContactGridA, ContactGridB, ContactGridC,
+    ContactGridD, ContactInfoTitle, InfoWrapper, ContactTextfield, ContactSend, CenterWrap
+} from './ContactElements'
 
 // import './ContactUs.css';
 
@@ -29,15 +34,21 @@ export default function Contact() {
                     <ContactGridB>
                         <GridWrapper>
                             <form className="contact-form" onSubmit={sendEmail}>
-                                <input type="hidden" name="contact_number" />
-                                <label>Name</label>
-                                <br></br>
-                                <input type="text" name="user_name" /><br></br>
-                                <label>Email</label><br></br>
-                                <input type="email" name="user_email" /><br></br>
-                                <label>Message</label><br></br>
-                                <textarea name="message" /><br></br>
-                                <input type="submit" value="Send" />
+
+                                <ContactInput type="hidden" name="contact_number" />
+                                <CenterWrap>
+                                    <label>Name</label>
+                                </CenterWrap>
+                                <ContactInput type="text" name="user_name" /><br></br>
+                                <CenterWrap>
+                                    <label>Email</label><br></br>
+                                </CenterWrap>
+                                <ContactInput type="email" name="user_email" /><br></br>
+                                <CenterWrap>
+                                    <label>Message</label>
+                                </CenterWrap>
+                                <ContactTextfield name="message" /><br></br>
+                                <CenterWrap><ContactSend type="submit" value="Send" /></CenterWrap>
                             </form>
                         </GridWrapper>
                     </ContactGridB>
@@ -50,7 +61,7 @@ export default function Contact() {
                             <ContactInfoTitle>E-Mail</ContactInfoTitle>
                             <ContactInfoText>a-transmontana@hotmail.com</ContactInfoText>
                             <ContactInfoTitle>Open</ContactInfoTitle>
-                            <ContactInfoText>Mon-Thu: 11.00-23.00<br></br>Fr-Sun: 11:00-02:00</ContactInfoText>
+                            <ContactInfoText>Mon-Thu: 11.00-open end<br></br>Fr-Sun: 11:00-open end</ContactInfoText>
                         </InfoGrid>
                     </ContactGridC>
                 </ContactGrid>

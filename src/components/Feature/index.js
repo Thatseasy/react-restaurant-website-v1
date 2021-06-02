@@ -6,7 +6,7 @@ const Feature = () => {
     <FeatureContainer>
       <h1>Steak of the Day</h1>
       <p>Steak with Truffle alfredo sauce topped with 24 carat gold dust.</p>
-      <FeatureButton>Order Now</FeatureButton>
+      <FeatureButton>Reservation</FeatureButton>
     </FeatureContainer>
   );
 };
