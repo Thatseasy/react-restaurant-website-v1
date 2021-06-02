@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer';
 import Menu from './components/Menu';
 import About from './components/About';
-import Gallery from './components/Gallery'
+import Trap from './components/Gallery/App'
 
 
 
@@ -47,7 +47,7 @@ function App() {
         </Route>
 
         <Route path='/gallery'>
-          <Gallery />
+          <Trap />
           <Contact />
         </Route>
 
