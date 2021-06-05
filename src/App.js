@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { GlobalStyle } from './globalStyles';
 import Hero from './components/Hero';
@@ -10,8 +10,6 @@ import Footer from './components/Footer';
 import Menu from './components/Menu';
 import About from './components/About';
 import Trap from './components/Gallery/App'
-
-
 
 
 function App() {
@@ -47,7 +45,7 @@ function App() {
         </Route>
 
         <Route path='/gallery'>
-          <Trap />
+          <Trap style={{ background: '#150f0f' }} />
           <Contact />
         </Route>
 
@@ -55,6 +53,8 @@ function App() {
       <Footer />
     </Router>
   );
+
+
 }
 
 export default App;

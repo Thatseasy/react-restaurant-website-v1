@@ -22,9 +22,11 @@ export default function Contact() {
             });
     }
 
+
+
     return (
         <ContactContainer >
-            <ContactWrapper>
+            <ContactWrapper >
                 <ContactGrid>
                     <ContactGridA>
                         <GridWrapperTitle>
@@ -34,7 +36,6 @@ export default function Contact() {
                     <ContactGridB>
                         <GridWrapper>
                             <form className="contact-form" onSubmit={sendEmail}>
-
                                 <ContactInput type="hidden" name="contact_number" />
                                 <CenterWrap>
                                     <label>Name</label>

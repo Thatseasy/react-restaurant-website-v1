@@ -16,7 +16,7 @@ import {
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterWrap>
+      <FooterWrap >
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/'>A Transmontana</SocialLogo>

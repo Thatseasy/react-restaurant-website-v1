@@ -6,11 +6,9 @@ import UploadForm from './comps/UploadForm';
 
 function Trap() {
   const [selectedImg, setSelectedImg] = useState(null);
-
+  //Components 'Title' and 'UploadForm' are optional, the form rather to upload pictures.
   return (
-    <div className="Trap">
-      <Title />
-      <UploadForm />
+    <div className="Trap" style={{ color: '#fff' }}>
       <ImageGrid setSelectedImg={setSelectedImg} />
       {selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}
     </div>
